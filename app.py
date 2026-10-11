@@ -9,11 +9,13 @@ import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+dbpass = input("Enter your MySQL password: ")
+
 # ---------------- Settings ----------------
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "YourNewPassword123!",
+    "password": dbpass,
     "database": "NHL_Analytics_HUB",
 }
 CURRENT_SEASON = "20252026"
