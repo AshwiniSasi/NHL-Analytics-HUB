@@ -1,0 +1,7 @@
+streamlit>=1.40
+streamlit-option-menu>=0.4
+pandas>=2.0
+plotly>=5.20
+requests>=2.31
+jupyter>=1.0
+mysql-connector-python
